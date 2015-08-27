@@ -1,6 +1,6 @@
 {
   "name": "to-predictable-string",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Stringify anything in a predictable manner, i.e. two objects with equal keys in different order gets the same result",
   "main": "src/index.js",
   "scripts": {
