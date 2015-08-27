@@ -1,0 +1,24 @@
+{
+  "name": "to-predictable-string",
+  "version": "0.1.0",
+  "description": "Stringify anything in a predictable manner, i.e. two objects with equal keys in different order gets the same result",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "xo",
+    "pretest": "npm run -s lint",
+    "test": "tape 'test/**/*.js'"
+  },
+  "keywords": [],
+  "author": "Joakim Carlstein <joakim@klei.se>",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.2.0",
+    "xo": "^0.7.1"
+  },
+  "xo": {
+    "space": true
+  },
+  "dependencies": {
+    "is-plain-object": "^2.0.1"
+  }
+}
